@@ -10,4 +10,9 @@ public class Student{
         this.name = name;
         this.address = address;
     }
+    
+    //returns objects formatted to a string
+    public String toString(){
+        return "Roll Number = " + rollno + ", Name = " + name + ", Address = " + address;
+    }
 }
