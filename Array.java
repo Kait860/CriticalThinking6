@@ -24,8 +24,17 @@ public class Array {
         }
 
         //print the list sorted by roll number
-        
+        System.out.println("\nName Sort: ");
+        SelectionSort.sort(studentsList, new NameComparator());
+        for (int i =0; i< 10; i++){
+            System.out.println(studentsList.get(i));
+        }
 
         //prints the list sorted by name
+        System.out.println("\nRoll Number Sort: ");
+        SelectionSort.sort(studentsList, new RollnoComparator());
+        for (int i =0; i< 10; i++){
+            System.out.println(studentsList.get(i));
+        }
     }
 }
