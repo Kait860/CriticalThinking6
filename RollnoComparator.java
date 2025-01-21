@@ -1,5 +1,4 @@
 //creates roll number comparator
-
 import java.util.Comparator;
 
 public class RollnoComparator implements Comparator<Student>{
